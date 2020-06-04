@@ -1,0 +1,5 @@
+{
+  "dev": "https://naefe.poc.dev.local",
+  "staging":"https://hdguest:MLP@2017@uat-rideunique.harley-davidson.com",
+  "live":"https://rideunique.harley-davidson.com"
+}
