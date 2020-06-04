@@ -7,7 +7,6 @@ pipeline {
         stage('Testing') {
             steps {
                 echo 'Start Testing'
-                cd testing
                 bat '''
                     pip install -r requirements.txt
                     pytest -n 1 -m test --html=report/report-${BUILD_NUMBER}.html
