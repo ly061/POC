@@ -1,0 +1,42 @@
+{
+  "d7a18445c8d4bee3ef217f21cb3315a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4e831164231ae04",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err",
+      "time" : {
+        "start" : 1591166657850,
+        "stop" : 1591166674220,
+        "duration" : 16370
+      }
+    } ]
+  },
+  "110daa19133492fb56be9a124f69cfcb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "340f1c99cb53ee19",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE69C7F0>.err",
+      "time" : {
+        "start" : 1591166685492,
+        "stop" : 1591166689881,
+        "duration" : 4389
+      }
+    } ]
+  }
+}

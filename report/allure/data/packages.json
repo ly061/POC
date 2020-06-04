@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "proj_poc.test_case.case0001_check_home_page",
+    "children" : [ {
+      "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+      "uid" : "b4e831164231ae04",
+      "parentUid" : "4d34be5bfb4cebc39cdb13cac485805a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591166657850,
+        "stop" : 1591166674220,
+        "duration" : 16370
+      },
+      "flaky" : false,
+      "parameters" : [ "'https://nae.poc.dev.local'" ]
+    }, {
+      "name" : "test_visit_homepage[https://naefe.poc.dev.local]",
+      "uid" : "340f1c99cb53ee19",
+      "parentUid" : "4d34be5bfb4cebc39cdb13cac485805a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591166685492,
+        "stop" : 1591166689881,
+        "duration" : 4389
+      },
+      "flaky" : false,
+      "parameters" : [ "'https://naefe.poc.dev.local'" ]
+    } ],
+    "uid" : "proj_poc.test_case.case0001_check_home_page"
+  } ]
+}

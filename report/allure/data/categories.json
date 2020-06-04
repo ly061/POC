@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err",
+      "children" : [ {
+        "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+        "uid" : "b4e831164231ae04",
+        "parentUid" : "aed5e52986d6e330a4190fa9316e4da2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591166657850,
+          "stop" : 1591166674220,
+          "duration" : 16370
+        },
+        "flaky" : false,
+        "parameters" : [ "'https://nae.poc.dev.local'" ]
+      } ],
+      "uid" : "aed5e52986d6e330a4190fa9316e4da2"
+    }, {
+      "name" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE69C7F0>.err",
+      "children" : [ {
+        "name" : "test_visit_homepage[https://naefe.poc.dev.local]",
+        "uid" : "340f1c99cb53ee19",
+        "parentUid" : "86b776a6065410c40b4ba5bd2b8254d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591166685492,
+          "stop" : 1591166689881,
+          "duration" : 4389
+        },
+        "flaky" : false,
+        "parameters" : [ "'https://naefe.poc.dev.local'" ]
+      } ],
+      "uid" : "86b776a6065410c40b4ba5bd2b8254d4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

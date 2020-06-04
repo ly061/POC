@@ -1,0 +1,184 @@
+{
+  "uid" : "b4e831164231ae04",
+  "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+  "fullName" : "proj_poc.test_case.case0001_check_home_page#test_visit_homepage",
+  "historyId" : "d7a18445c8d4bee3ef217f21cb3315a1",
+  "time" : {
+    "start" : 1591166657850,
+    "stop" : 1591166674220,
+    "duration" : 16370
+  },
+  "description" : "\n    visit home page\n    ",
+  "descriptionHtml" : "<pre><code>visit home page\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err",
+  "statusTrace" : "firefox = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"138629d8-2d18-4186-aa14-fcdcf7262138\")>\nurl = 'https://nae.poc.dev.local'\n\n    @allure.feature(\"Check homepage\")\n    @pytest.mark.parametrize('url', [\"https://nae.poc.dev.local\", \"https://naefe.poc.dev.local\"])\n    @pytest.mark.smoke\n    @pytest.mark.run(order=1)\n    def test_visit_homepage(firefox, url):\n        \"\"\"\n        visit home page\n        \"\"\"\n        err = 0\n        homepage = HomePage(firefox)\n        homepage.check_method(\"open homepage url\", homepage.driver.get(url))\n        homepage.check_method(\"check hero component amount\", homepage.check_gallery_components_amount())\n        homepage.check_method(\"screenshot home page\", homepage.screenshot_homepage())\n        homepage.check_method(\"check card component amount\", homepage.check_card_components_amount())\n        homepage.logger.info(homepage.err)\n        if homepage.err:\n>           assert 0 == homepage.err\nE           assert 0 == 1\nE            +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err\n\nproj_poc\\test_case\\case0001_check_home_page.py:26: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "firefox",
+    "time" : {
+      "start" : 1591166647161,
+      "stop" : 1591166657848,
+      "duration" : 10687
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n    visit home page\n    ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0 == 1\n +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err",
+    "statusTrace" : "firefox = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"138629d8-2d18-4186-aa14-fcdcf7262138\")>\nurl = 'https://nae.poc.dev.local'\n\n    @allure.feature(\"Check homepage\")\n    @pytest.mark.parametrize('url', [\"https://nae.poc.dev.local\", \"https://naefe.poc.dev.local\"])\n    @pytest.mark.smoke\n    @pytest.mark.run(order=1)\n    def test_visit_homepage(firefox, url):\n        \"\"\"\n        visit home page\n        \"\"\"\n        err = 0\n        homepage = HomePage(firefox)\n        homepage.check_method(\"open homepage url\", homepage.driver.get(url))\n        homepage.check_method(\"check hero component amount\", homepage.check_gallery_components_amount())\n        homepage.check_method(\"screenshot home page\", homepage.screenshot_homepage())\n        homepage.check_method(\"check card component amount\", homepage.check_card_components_amount())\n        homepage.logger.info(homepage.err)\n        if homepage.err:\n>           assert 0 == homepage.err\nE           assert 0 == 1\nE            +  where 1 = <proj_poc.page.home_page.HomePage object at 0x00000130EE6370F0>.err\n\nproj_poc\\test_case\\case0001_check_home_page.py:26: AssertionError",
+    "steps" : [ {
+      "name" : "open homepage url",
+      "time" : {
+        "start" : 1591166673140,
+        "stop" : 1591166673140,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check hero component amount",
+      "time" : {
+        "start" : 1591166673149,
+        "stop" : 1591166673149,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "screenshot home page",
+      "time" : {
+        "start" : 1591166674147,
+        "stop" : 1591166674147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check card component amount",
+      "time" : {
+        "start" : 1591166674219,
+        "stop" : 1591166674220,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2470e7944cfdd13d",
+      "name" : "homepage screenshot",
+      "source" : "2470e7944cfdd13d.png",
+      "type" : "image/png",
+      "size" : 6162383
+    }, {
+      "uid" : "2e251125092421d7",
+      "name" : "log",
+      "source" : "2e251125092421d7.txt",
+      "type" : "text/plain",
+      "size" : 104
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "firefox::0",
+    "time" : {
+      "start" : 1591166674469,
+      "stop" : 1591166675604,
+      "duration" : 1135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check homepage"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "proj_poc.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "case0001_check_home_page"
+  }, {
+    "name" : "host",
+    "value" : "CHELPR-NW10041"
+  }, {
+    "name" : "thread",
+    "value" : "23392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "proj_poc.test_case.case0001_check_home_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "'https://nae.poc.dev.local'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b4e831164231ae04.json",
+  "parameterValues" : [ "'https://nae.poc.dev.local'" ]
+}

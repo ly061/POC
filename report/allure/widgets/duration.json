@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b4e831164231ae04",
+  "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+  "time" : {
+    "start" : 1591166657850,
+    "stop" : 1591166674220,
+    "duration" : 16370
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "340f1c99cb53ee19",
+  "name" : "test_visit_homepage[https://naefe.poc.dev.local]",
+  "time" : {
+    "start" : 1591166685492,
+    "stop" : 1591166689881,
+    "duration" : 4389
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

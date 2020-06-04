@@ -1,0 +1,33 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Check homepage",
+    "children" : [ {
+      "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+      "uid" : "b4e831164231ae04",
+      "parentUid" : "248f18809d4e316552faeb6e976e2ce5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591166657850,
+        "stop" : 1591166674220,
+        "duration" : 16370
+      },
+      "flaky" : false,
+      "parameters" : [ "'https://nae.poc.dev.local'" ]
+    }, {
+      "name" : "test_visit_homepage[https://naefe.poc.dev.local]",
+      "uid" : "340f1c99cb53ee19",
+      "parentUid" : "248f18809d4e316552faeb6e976e2ce5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591166685492,
+        "stop" : 1591166689881,
+        "duration" : 4389
+      },
+      "flaky" : false,
+      "parameters" : [ "'https://naefe.poc.dev.local'" ]
+    } ],
+    "uid" : "248f18809d4e316552faeb6e976e2ce5"
+  } ]
+}

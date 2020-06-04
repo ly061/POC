@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"failed","proj_poc.test_case.case0001_check_home_page#test_visit_homepage","16370","
+    visit home page
+    "
+"failed","proj_poc.test_case.case0001_check_home_page#test_visit_homepage","4389","
+    visit home page
+    "

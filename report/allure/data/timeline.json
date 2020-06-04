@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CHELPR-NW10041",
+    "children" : [ {
+      "name" : "23392-MainThread",
+      "children" : [ {
+        "name" : "test_visit_homepage[https://nae.poc.dev.local]",
+        "uid" : "b4e831164231ae04",
+        "parentUid" : "347d506fad3166a0dfb0f72df17c01a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591166657850,
+          "stop" : 1591166674220,
+          "duration" : 16370
+        },
+        "flaky" : false,
+        "parameters" : [ "'https://nae.poc.dev.local'" ]
+      }, {
+        "name" : "test_visit_homepage[https://naefe.poc.dev.local]",
+        "uid" : "340f1c99cb53ee19",
+        "parentUid" : "347d506fad3166a0dfb0f72df17c01a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591166685492,
+          "stop" : 1591166689881,
+          "duration" : 4389
+        },
+        "flaky" : false,
+        "parameters" : [ "'https://naefe.poc.dev.local'" ]
+      } ],
+      "uid" : "347d506fad3166a0dfb0f72df17c01a3"
+    } ],
+    "uid" : "a908e42296bb3c057568b082dd69cf06"
+  } ]
+}
