@@ -31,25 +31,25 @@ def firefox_browser(request):
     yield driver
     driver.quit()
 
-def pytest_sessionstart():
-    if not os.path.exists("report/xml"):
-        os.mkdir("report/xml")
-    else:
-        shutil.rmtree("report/xml")
-        os.mkdir("report/xml")
-    if not os.path.exists("report/allure"):
-        os.mkdir("report/allure")
-    else:
-        shutil.rmtree("report/allure")
-        os.mkdir("report/allure")
-    print("cleaning data over")
+# def pytest_sessionstart():
+#     if not os.path.exists("report/xml"):
+#         os.mkdir("report/xml")
+#     else:
+#         shutil.rmtree("report/xml")
+#         os.mkdir("report/xml")
+#     if not os.path.exists("report/allure"):
+#         os.mkdir("report/allure")
+#     else:
+#         shutil.rmtree("report/allure")
+#         os.mkdir("report/allure")
+#     print("cleaning data over")
 
-def pytest_sessionfinish(session):
-    """
-    开几个线程就会执行几次
-    """
-    allure_dir = session.config.getoption('allure_report_dir')
-    if allure_dir:
-        os.system(f"allure generate report/xml -o report/allure --clean")
-        os.system(f"allure open report/allure")
+# def pytest_sessionfinish(session):
+#     """
+#     开几个线程就会执行几次
+#     """
+#     allure_dir = session.config.getoption('allure_report_dir')
+#     if allure_dir:
+#         os.system(f"allure generate report/xml -o report/allure --clean")
+#         os.system(f"allure open report/allure")
 
