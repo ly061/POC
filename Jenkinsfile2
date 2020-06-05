@@ -9,7 +9,6 @@ pipeline {
                 echo 'Start Testing'
                 bat '''
                     pip install -r requirements.txt
-                    allure --version
                     pytest -n 1 -m test --html=report/report-${BUILD_NUMBER}.html
                     exit %ERRORLEVEL%
                     deactivate
